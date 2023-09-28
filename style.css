@@ -63,11 +63,18 @@ h1 {
 }
 
 .arrow {
-  width: auto;
-  height: 12px;
+  width: 12px;
+  height: 14px;
   background: hsl(210, 46%, 95%);
-  padding: 8px;
-  border-radius: 20px;
+  padding: 10px;
+  border-radius: 25px;
+  color: hsl(214, 17%, 51%);
+}
+
+.arrow:hover {
+  background-color: hsl(214, 17%, 51%);
+  cursor: pointer;
+  color: white;
 }
 
 .user-details {
@@ -81,4 +88,67 @@ h1 {
 
 .name-date {
   padding-left: 16px;
+}
+
+.share-popup {
+  display: flex;
+  background-color: #48556a;
+  padding: 16px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 48%;
+  left: 63%;
+  visibility: hidden;
+}
+
+.share-popup img {
+  padding-left: 16px;
+  height: 16px;
+}
+
+.share {
+  letter-spacing: 4px;
+}
+
+.caret {
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - 10px);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #48556a;
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    flex-direction: column;
+    width: 90%;
+    height: 475px;
+    justify-content: start;
+  }
+
+  .drawers-img {
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+    height: 175px;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .user-info {
+    padding-top: 26px;
+  }
 }

@@ -101,7 +101,7 @@ h1 {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   position: absolute;
   top: 48%;
-  left: 63%;
+  left: 60%;
   visibility: hidden;
 }
 
@@ -123,6 +123,10 @@ h1 {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 10px solid #48556a;
+}
+
+.share-popup-mobile {
+  visibility: hidden;
 }
 
 @media screen and (max-width: 375px) {

@@ -18,8 +18,16 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 The only JavaScript you'll need for this challenge is to initiate the share options when someone clicks the share icon.
 
-Your users should be able to: 
+Your users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
 - See the social media share links when they click the share icon
 
+Completed Screenshots of Challenge by Michelle Aberizk:
+
+<p align="center">
+<img src="./images/Desktop.png">
+<img src="./images/Desktop_active.png">
+<img src="./images/Mobile.png">
+<img src="./images/Mobile_active.png">
+</p>

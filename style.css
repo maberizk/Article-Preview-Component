@@ -128,13 +128,19 @@ h1 {
 @media screen and (max-width: 375px) {
   .card {
     flex-direction: column;
-    width: 90%;
+    width: 325px;
     height: 475px;
     justify-content: start;
+    align-items: center;
+  }
+
+  body {
+    flex-direction: column;
+    width: 100vw;
   }
 
   .drawers-img {
-    width: 100%;
+    width: 325px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 0px;
     height: 175px;
@@ -145,10 +151,49 @@ h1 {
   }
 
   p {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .user-info {
     padding-top: 26px;
+  }
+
+  .share-popup-mobile {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(217, 19%, 35%);
+    width: 325px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 96px;
+    visibility: hidden;
+  }
+
+  .arrow-mobile {
+    background-color: hsl(214, 17%, 51%);
+    color: white;
+    margin-right: 36px;
+    padding: 6px;
+    border-radius: 30px;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logos img {
+    width: auto;
+    height: 16px;
+    padding-left: 16px;
+  }
+
+  .share {
+    padding-left: 36px;
   }
 }

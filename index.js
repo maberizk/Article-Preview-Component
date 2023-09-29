@@ -26,3 +26,8 @@ function closePopupOnClickOutside(event) {
     document.removeEventListener("click", closePopupOnClickOutside);
   }
 }
+
+window.addEventListener("resize", function () {
+  "use strict";
+  window.location.reload();
+});
